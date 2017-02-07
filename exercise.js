@@ -59,7 +59,8 @@ console.log(theSifu);
 /*6. Declare a variable named `smallKine` that will convert the string below to all lower case. Console.log your result.*/
 
 var bigTime = "BRUuHHHH, I AM DA GreaTest!";
-
+var smallKline = bigTime.toLowerCase();
+console.log(smallKline);
 
 
 /*The toUpperCase() method converts the characters in a string to upper case.*/
@@ -67,7 +68,8 @@ var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 /*7. Declare a variable named `bigBand` that will convert the string below to all upper case. Console.log your result.*/
 
 var bandName = "the beatles";
-
+var bigBand = bandName.toUpperCase();
+console.log(bigBand);
 
 
 /*The split() method converts a string into an array, by separating the string into substrings.*/
@@ -75,6 +77,8 @@ var bandName = "the beatles";
 /*8. Declare a variable named `oreoList` that will convert the string below into an array of strings. Console.log your result.*/
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
+var oreoList = oreos.split(",");
+console.log(oreoList);
 
 
 
@@ -83,7 +87,8 @@ var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cak
 /*9. Declare a variable named `favDrink` and extract "gin" from the string below. Console.log your result.*/
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
-
+var favDrink = drinkMenu.substr(5,3);
+console.log(favDrink);
 
 
 
